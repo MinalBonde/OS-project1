@@ -1,0 +1,15 @@
+If you want to use PuTTY to connect to other computers, or use PSFTP
+to transfer files, you should just be able to run them from the
+Start menu.
+
+If you want to use the command-line file transfer utility PSCP, you
+will need to run this from a Command Prompt or equivalent, because it
+will not do anything useful without command-line options telling it
+what files to copy to and from where. You can do this by just running
+the command 'pscp' from a Command Prompt, if you used the installer's
+option to put the PuTTY installation directory on your PATH.
+Alternatively, you can always run pscp.exe by its full pathname, e.g.
+"C:\Program Files\PuTTY\pscp.exe".
+
+(Note that a Command Prompt that was already open before you ran the
+installer will not have inherited the update of PATH.)
