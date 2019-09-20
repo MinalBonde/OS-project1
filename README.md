@@ -1,12 +1,12 @@
 # OS-project1
 Count the frequency of alphabetical characters using fork
-##Project1 README
+## Project1 README
 ===============
 
 This is the README  file for the instructions of running project1.If you are reading this,you have probably have access to source files with main.c and input files file1 file2 file3 file4 file5 file6 file7 file8 file9 file10.
 Function of this program is to use fork system call to create n processes.Each process will open a file and count the frequency of alphabetical characters inside it.Once the characters are counted, the result will be written in result.txt file.
 
-##What to do next?
+## What to do next?
 ================
 
 Instructions to compile and run the main.c 
@@ -18,7 +18,7 @@ Instructions to compile and run the main.c
 5.Input files : main.c file1.txt file2.txt file3.txt file4.c file5.yml file6.yml file7.txt file8.c file9.txt file10.yml
 6.Output file : result.txt
 
-##Error cases:
+## Error cases:
 ============
 
 1.if number of file is less than 0 then missing filenames will be displayed.
